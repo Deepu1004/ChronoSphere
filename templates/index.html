@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The News Mania</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <button class="theme-toggle" onclick="toggleTheme()">
+            🌓
+        </button>
+        <h1>Choose Your News Source</h1>
+        <div class="news">
+            <div class="news-site" onclick="window.location.href='/news/BBC'">
+                <h2>BBC News</h2>
+                <p>Get the latest news from the British Broadcasting Corporation</p>
+            </div>
+            <div class="news-site" onclick="window.location.href='/news/CNN'">
+                <h2>CNN</h2>
+                <p>Stay updated with Cable News Network</p>
+            </div>
+            <div class="news-site" onclick="window.location.href='/news/AP'">
+                <h2>Associated Press</h2>
+                <p>Breaking news from around the world</p>
+            </div>
+            <div class="news-site" onclick="window.location.href='/news/Times of India'">
+                <h2>Times of India</h2>
+                <p>Breaking news from around the world</p>
+            </div>
+            <div class="news-site" onclick="window.location.href='/news/New York Times'">
+                <h2>New York Times</h2>
+                <p>Breaking news from around the world</p>
+            </div>
+            <div class="news-site" onclick="window.location.href='/news/Hindustan Times'">
+                <h2>Hindustan Times</h2>
+                <p>Breaking news from around the world</p>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='theme.js') }}"></script>
+</body>
+</html>
