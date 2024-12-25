@@ -15,11 +15,11 @@ The News Mania features a dynamic theme switching functionality, allowing users 
 
 **Light Mode:**
 
-![Light Mode Screenshot](static/images/light.png)
+![Light Mode Screenshot](static/screenshot/light.png)
 
 **Dark Mode:**
 
-![Dark Mode Screenshot](static/images/dark.png)
+![Dark Mode Screenshot](static/screenshot/dark.png)
 
 **Technologies:**
 
