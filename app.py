@@ -22,7 +22,6 @@ def scrape_headlines(url, headline_tag, headline_class=None, headline_attrs={}):
     """
     try:
         headers = {'User-Agent': ua.random}
-        time.sleep(random.uniform(1, 3))  # Random delay
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -77,8 +76,8 @@ def show_news(site):
         },
          'New York Times': {
             'url': 'https://www.nytimes.com/',
-            'headline_tag': 'h2',
-            'headline_class': 'css-1ez5f0e e1ls500o0'
+            'headline_tag': 'p',
+            'headline_class': 'indicate-hover'
         },
         'Hindustan Times':{
             'url':'https://www.hindustantimes.com/',

@@ -64,7 +64,7 @@ The News Mania/
 
 5.  **Access the application in your web browser at http://127.0.0.1:5000/ (or your local development server address).**
 
-**CSS Structure and Styling:**
+**CSS Structure:**
 
 The project uses a modular CSS structure for maintainability:
 
@@ -72,13 +72,6 @@ The project uses a modular CSS structure for maintainability:
 -   `common.css`: Contains styles shared across all pages, like basic resets, body styles, and the theme toggle.
 -   `index.css`: Styles specific to the main page (`index.html`), including the news source grid.
 -   `news.css`: Styles specific to the headlines page (`news.html`), including headline display and the back link.
-
-**Key Styling Features:**
-
--   **Glassmorphism:** Used for card backgrounds and some header elements to provide a modern, frosted glass effect.
--   **Hover Effects:** Subtle hover animations and box-shadows enhance user interaction.
--   **Responsive Design:** Media queries are used to ensure the layout adapts well to different screen sizes.
--   **Clear Typography:** The 'Poppins' font is used for clean and readable text.
 
 **Contributing:**
 

@@ -14,30 +14,36 @@
         </button>
         <h1>Choose Your News Source</h1>
         <div class="news">
-            <div class="news-site" onclick="window.location.href='/news/BBC'">
-                <h2>BBC News</h2>
-                <p>Get the latest news from the British Broadcasting Corporation</p>
-            </div>
-            <div class="news-site" onclick="window.location.href='/news/CNN'">
-                <h2>CNN</h2>
-                <p>Stay updated with Cable News Network</p>
-            </div>
-            <div class="news-site" onclick="window.location.href='/news/AP'">
-                <h2>Associated Press</h2>
-                <p>Breaking news from around the world</p>
-            </div>
-            <div class="news-site" onclick="window.location.href='/news/Times of India'">
-                <h2>Times of India</h2>
-                <p>Breaking news from around the world</p>
-            </div>
-            <div class="news-site" onclick="window.location.href='/news/New York Times'">
-                <h2>New York Times</h2>
-                <p>Breaking news from around the world</p>
-            </div>
-            <div class="news-site" onclick="window.location.href='/news/Hindustan Times'">
-                <h2>Hindustan Times</h2>
-                <p>Breaking news from around the world</p>
-            </div>
+            <div class="news-site" onclick="window.location.href='/news/BBC'"">
+        <img class="logos" src="{{ url_for('static', filename='images/bbc.png') }}" alt="BBC News Logo">
+        <h2>BBC News</h2>
+        <p>Global & UK news.</p>
+    </div>
+    <div class="news-site" onclick="window.location.href='/news/CNN'">
+        <img src="{{ url_for('static', filename='images/download.png') }}" alt="CNN Logo">
+        <h2>CNN</h2>
+        <p>US & World news.</p>
+    </div>
+    <div class="news-site" onclick="window.location.href='/news/AP'">
+        <img src="{{ url_for('static', filename='images/ap.svg') }}" alt="AP Logo">
+        <h2>Associated Press</h2>
+        <p>Global breaking news.</p>
+    </div>
+    <div class="news-site" onclick="window.location.href='/news/Times of India'">
+        <img src="{{ url_for('static', filename='images/toi.png') }}" alt="Times of India Logo">
+        <h2>Times of India</h2>
+        <p>India & World news.</p>
+    </div>
+    <div class="news-site" onclick="window.location.href='/news/New York Times'">
+        <img src="{{ url_for('static', filename='images/nyt.png') }}" alt="New York Times Logo">
+        <h2>New York Times</h2>
+        <p>US & World news & culture.</p>
+    </div>
+    <div class="news-site" onclick="window.location.href='/news/Hindustan Times'">
+        <img src="{{ url_for('static', filename='images/ht.jpg') }}" alt="Hindustan Times Logo">
+        <h2>Hindustan Times</h2>
+        <p>India news & top stories.</p>
+    </div>
         </div>
     </div>
     <script src="{{ url_for('static', filename='theme.js') }}"></script>
