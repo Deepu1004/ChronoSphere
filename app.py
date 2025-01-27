@@ -70,16 +70,16 @@ def show_news(site):
             'headline_tag': 'span',
             'headline_class': 'PagePromoContentIcons-text'
         },
-        'Times of India': {
+        'TOI': {
             'url': 'https://timesofindia.indiatimes.com/',
             'headline_tag': 'figcaption'
         },
-         'New York Times': {
+         'NYT': {
             'url': 'https://www.nytimes.com/',
             'headline_tag': 'p',
             'headline_class': 'indicate-hover'
         },
-        'Hindustan Times':{
+        'HT':{
             'url':'https://www.hindustantimes.com/',
             'headline_tag':'h3',
             'headline_class':'hdg3'
