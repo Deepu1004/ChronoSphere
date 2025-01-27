@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site }} News</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet'>
-    <link rel="stylesheet" href="{{ url_for('static', filename='news.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/news.css') }}">
 </head>
 <body>
     <header class="fixed-header">
@@ -24,6 +24,6 @@
             {% endfor %}
         </div>
     </div>
-    <script src="{{ url_for('static', filename='theme.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 </body>
 </html>
