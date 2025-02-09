@@ -1,4 +1,4 @@
-# The News Mania
+# ChronoSphere: Dynamic News Aggregator Engine
 
 A responsive and user-friendly news aggregator built with Flask and web scraping techniques. It allows users to explore headlines from various popular news sources.
 
